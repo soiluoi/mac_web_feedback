@@ -1,4 +1,4 @@
-fetch("https://your-server.com/config.json")
+fetch("https://soiluoi.github.io/mac_web_feedback/config.json")
   .then(response => response.json())
   .then(config => {
     document.getElementById("message").textContent = config.message;
