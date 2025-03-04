@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "message": "Xin chào từ server!",
+    "actions": [
+      {
+        "name": "Mở Google",
+        "type": "open_url",
+        "url": "https://www.google.com"
+      },
+      {
+        "name": "Gửi thông báo",
+        "type": "show_notification",
+        "message": "Đây là thông báo từ server!"
+      }
+    ]
+  }
+  
